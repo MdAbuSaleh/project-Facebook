@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 1380px;
+    margin: auto;
+}
+
+.facebook-d{
+    width: 100%;
+    height: 100vh;
+    background-color: #F0F2F5;
+    align-items: center;
+    justify-content: center;
+}
+.facebook{
+    display: flex;
+    width: 1000px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10%;
+}
+.F-left{
+    width: 50%;
+   
+    
+}
+.f-content{
+    text-align: left;
+}
+.f-content img{
+    display: inline-block;
+    width: 70%;
+    margin-left: -30px;
+    position: relative;
+}
+.f-content h3{
+    font-size: 28px;
+    line-height: 32px;
+    color: #333;
+    font-weight: 400;
+    margin-top: -10px;
+}
+.F-right{
+    width: 40%;
+    margin-left: 10%;
+}
+
+.f-form{
+    background-color: #fff;
+    padding: 5%;
+    border-radius: 5px;
+}
+.f-form input{
+    width: 100%;
+    margin-bottom: 20px;
+    height: 50px;
+    border-radius: 5px;
+    border: 0.5px solid #ddd;
+    box-sizing: border-box;
+    padding-left: 15px;
+    outline:#1877F2;
+
+}
+input::placeholder{
+    font-size: 18px;
+    color: #ddd;
+}
+input:focus{
+   border: 2px solid #1877F2;
+    border-radius: 5px;
+}
+#Login{
+    display: inline-block;
+    background:#1877F2;
+    width: 100%;
+    padding: 16px 0px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.5s;
+    margin-bottom: 5%;
+}
+#Login:hover{
+    background-color: #166FE5;
+}
+#Forgotten{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    text-decoration: none;
+    padding-bottom: 5%;
+    border-bottom: 1px solid#ddd;
+    color: #1877F2;
+}
+.cc{
+    width: 100%;
+    text-align: center;
+}
+#Create{
+    width: 70%;
+    text-decoration: none;
+    padding-bottom: 5%;
+    display:inline-block;
+    margin-top: 5%;
+    background-color: #36A420;
+    padding: 16px 0px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.5s;
+   
+}
+
+#page{
+    margin-top: 5%;
+    display: inline-block;
+    text-align: right;
+    font-size: 14px;
+    color: #333;
+    font-weight: 600;
+    text-decoration: none;
+    width: 40%;
+}
+#page:hover{
+    text-decoration: underline;
+}
+span{
+    font-size: 14px;
+    color: #333;
+    font-weight: 300;
+}
